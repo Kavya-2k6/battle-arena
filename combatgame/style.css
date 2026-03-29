@@ -1,0 +1,122 @@
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom, #1a1a2e, #16213e);
+    -fx-font-family: "Inter", "Segoe UI", sans-serif;
+}
+.game-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #e94560;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 5);
+}
+.vs-label {
+    -fx-font-size: 48px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #e94560;
+    -fx-opacity: 0.8;
+}
+.entity-card {
+    -fx-background-color: rgba(15, 52, 96, 0.4);
+    -fx-background-radius: 15;
+    -fx-border-color: rgba(255, 255, 255, 0.1);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-padding: 25;
+    -fx-min-width: 280;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 15, 0, 0, 8);
+}
+.sprite-image {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 4);
+}
+.entity-name {
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 0 0 10 0;
+}
+.stat-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #a0aab2;
+}
+.stat-value {
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #ffffff;
+}
+.stat-bar {
+    -fx-pref-width: 230;
+    -fx-pref-height: 18;
+    -fx-control-inner-background: #121212;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+.stat-bar .track {
+    -fx-background-color: #121212;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+.hp-bar-hero .bar {
+    -fx-background-color: linear-gradient(to right, #00b09b, #96c93d);
+    -fx-background-radius: 10;
+}
+.hp-bar-enemy .bar {
+    -fx-background-color: linear-gradient(to right, #cb2d3e, #ef473a);
+    -fx-background-radius: 10;
+}
+.mana-bar .bar {
+    -fx-background-color: linear-gradient(to right, #2193b0, #6dd5ed);
+    -fx-background-radius: 10;
+}
+.action-box {
+    -fx-padding: 20 0;
+}
+.action-btn {
+    -fx-font-size: 16px;
+    -fx-font-weight: 800;
+    -fx-text-fill: white;
+    -fx-padding: 12 30;
+    -fx-background-radius: 25;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 4);
+    -fx-min-width: 160;
+}
+.btn-attack {
+    -fx-background-color: linear-gradient(to bottom, #d31027, #ea384d);
+}
+.btn-attack:hover {
+    -fx-background-color: linear-gradient(to bottom, #ea384d, #f15f79);
+}
+.btn-heal {
+    -fx-background-color: linear-gradient(to bottom, #11998e, #38ef7d);
+}
+.btn-heal:hover {
+    -fx-background-color: linear-gradient(to bottom, #38ef7d, #56fca2);
+}
+.btn-special {
+    -fx-background-color: linear-gradient(to bottom, #8e2de2, #4a00e0);
+}
+.btn-special:hover {
+    -fx-background-color: linear-gradient(to bottom, #4a00e0, #8e2de2);
+}
+.action-btn:disabled {
+    -fx-background-color: #444444;
+    -fx-text-fill: #888888;
+    -fx-cursor: default;
+    -fx-effect: none;
+}
+.console-log {
+    -fx-font-family: "Consolas", "Courier New", monospace;
+    -fx-font-size: 14px;
+    -fx-control-inner-background: #0d1117;
+    -fx-background-color: #0d1117;
+    -fx-text-fill: #58a6ff;
+    -fx-border-color: #30363d;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+}
+.console-log .content {
+    -fx-background-color: #0d1117;
+}
+.console-log:focused {
+    -fx-border-color: #58a6ff;
+}
